@@ -72,7 +72,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   img {
     height: 50px;
   }
-`,cp=()=>nt.jsx(ip,{to:"/",children:nt.jsx("img",{src:"/logo.png",alt:"Logo"})}),fp=$t(Xr)`
+`,cp=()=>nt.jsx(ip,{to:"/",children:nt.jsx("img",{src:"/portfolio/logo.png",alt:"Logo"})}),fp=$t(Xr)`
   padding: 4px 12px;
   color: var(--grey-400);
   text-decoration: none;
