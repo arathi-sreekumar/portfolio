@@ -166,7 +166,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   min-height: 100vh;
   flex: 1 0 100%;
   color: #111111;
-`,_p=()=>nt.jsx(xp,{children:nt.jsxs(zg,{children:[nt.jsx(Ni,{path:"/home",element:nt.jsx(o0,{})}),nt.jsx(Ni,{path:"/projects",element:nt.jsx(zp,{})}),nt.jsx(Ni,{path:"/portfolio/",element:nt.jsx(o0,{})})]})}),Dp=I0`
+`,_p=()=>nt.jsx(xp,{children:nt.jsxs(zg,{children:[nt.jsx(Ni,{path:"/home",element:nt.jsx(o0,{})}),nt.jsx(Ni,{path:"/projects",element:nt.jsx(zp,{})}),nt.jsx(Ni,{path:"/",element:nt.jsx(o0,{})})]})}),Dp=I0`
   :root {
     --font-family: 'Georgia', serif;
     --font-family-alt: 'Helvetica', Arial, sans-serif;
