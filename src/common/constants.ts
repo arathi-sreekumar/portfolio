@@ -17,7 +17,7 @@ export const PageDisplayInfo: PageDisplayInfoListModal = {
   Home: {
     layoutType: LAYOUT.HOME,
     header: 'Hello, I am Arathi',
-    imageUrl: '/arathi_profile.jpg',
+    imageUrl: '/portfolio/arathi_profile.jpg',
     imageDescription: 'A sketch of Arathi'
   },
   Project: {

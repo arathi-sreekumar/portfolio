@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter as Router } from "react-router-dom";
 
 import './styles/reset.css'
 import './index.css'
@@ -11,10 +11,10 @@ import { ThemeStyles } from './styles/default-theme-styles.ts';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <Router>
       <GlobalStyles />
       <ThemeStyles />
       <App />
-    </BrowserRouter>
+    </Router>
   </StrictMode>
 )
