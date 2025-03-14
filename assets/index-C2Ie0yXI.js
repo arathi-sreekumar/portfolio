@@ -103,7 +103,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   display: flex;
   align-items: center;
   justify-content: space-between;
-`,dp=()=>nt.jsx(rp,{children:nt.jsxs(op,{children:[nt.jsx(cp,{}),nt.jsxs(sp,{children:[nt.jsx(f0,{to:"/home",children:"Home"}),nt.jsx(f0,{to:"/projects",children:"Projects"})]})]})}),Ji={HOME:0,TWO_COLUMN:2},tm={HOME:"Home",PROJECT:"Project"},kr={Home:{layoutType:Ji.HOME,header:"Hello, I am Arathi",imageUrl:"/arathi_profile.jpg",imageDescription:"A sketch of Arathi"},Project:{layoutType:Ji.TWO_COLUMN,header:"My Projects"}},hp=$t("section")`
+`,dp=()=>nt.jsx(rp,{children:nt.jsxs(op,{children:[nt.jsx(cp,{}),nt.jsxs(sp,{children:[nt.jsx(f0,{to:"/home",children:"Home"}),nt.jsx(f0,{to:"/projects",children:"Projects"})]})]})}),Ji={HOME:0,TWO_COLUMN:2},tm={HOME:"Home",PROJECT:"Project"},kr={Home:{layoutType:Ji.HOME,header:"Hello, I am Arathi",imageUrl:"/portfolio/arathi_profile.jpg",imageDescription:"A sketch of Arathi"},Project:{layoutType:Ji.TWO_COLUMN,header:"My Projects"}},hp=$t("section")`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
