@@ -10,8 +10,7 @@ export const LayoutUI = styled('div')`
 
 export const SideBarUI = styled('div')`
   width: var(--sidebar-width);
-  min-height: 100vh;
-  height: 100%;
+  height: 100vh;
   border-right: 3px solid var(--sidebar-color);
   transition: .7s;
   position: absolute;

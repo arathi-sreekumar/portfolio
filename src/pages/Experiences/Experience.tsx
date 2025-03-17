@@ -1,9 +1,12 @@
 import { JobType } from '../../types/layout';
 import {
+  Amadeus,
   Brandwatch,
   CanadaLife,
   Futrli,
   HelpScout,
+  Ness,
+  Semantico,
   Tray,
 } from './Company';
 
@@ -13,6 +16,8 @@ export type ExperienceProp = {
 
 const getExperienceComponent = (expId: JobType) => {
   switch (expId) {
+    case 'Amadeus':
+      return <Amadeus />
     case 'CanadaLife':
       return <CanadaLife />
     case 'HelpScout':
@@ -23,6 +28,10 @@ const getExperienceComponent = (expId: JobType) => {
       return <Futrli />
     case 'Brandwatch':
       return <Brandwatch />
+    case 'Semantico':
+      return <Semantico />
+    case 'Ness':
+      return <Ness />
     default:
       return <p>TO DO</p>
   }

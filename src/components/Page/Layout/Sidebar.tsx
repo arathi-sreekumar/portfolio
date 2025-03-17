@@ -6,7 +6,7 @@ type Prop = {
 }
 
 export const SideBar = ({ children }: Prop) => {
-  const [toggleClass, setToggleClass] = useState('closed')
+  const [toggleClass, setToggleClass] = useState('open')
   const handleToggle = () => {
     setToggleClass(toggleClass === 'closed' ? 'open' : 'closed')
   }

@@ -38,6 +38,8 @@ export const JOB_LIST = {
   BRANDWATCH: 'Brandwatch',
   CANADALIFE: 'CanadaLife',
   SEMANTICO: 'Semantico',
+  AMADEUS: 'Amadeus',
+  NESS: 'Ness',
 } as const
 
 export const ExperienceDisplayInfo: ExperienceDisplayInfoListModal = {
@@ -74,7 +76,19 @@ export const ExperienceDisplayInfo: ExperienceDisplayInfoListModal = {
   Semantico: {
     id: JOB_LIST.SEMANTICO,
     title: 'Semantico',
-    duration: '',
-    description: ''
+    duration: 'August 2013 till November 2015',
+    description: 'Semantico is a web design and development company.'
+  },
+  Amadeus: {
+    id: JOB_LIST.AMADEUS,
+    title: 'Amadeus',
+    duration: 'June 2012 - October 2012',
+    description: 'Amadeus is a global technology company that provides software solutions for the travel and tourism industry.'
+  },
+  Ness: {
+    id: JOB_LIST.NESS,
+    title: 'Ness',
+    duration: 'July 2009 - June 2012',
+    description: 'Ness is a digital engineering company providing advisory & scaled services for digital business transformation, leveraging digital transformation technologies.'
   }
 }

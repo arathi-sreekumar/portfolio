@@ -17,5 +17,7 @@ export declare const JOB_LIST: {
     readonly BRANDWATCH: "Brandwatch";
     readonly CANADALIFE: "CanadaLife";
     readonly SEMANTICO: "Semantico";
+    readonly AMADEUS: "Amadeus";
+    readonly NESS: "Ness";
 };
 export declare const ExperienceDisplayInfo: ExperienceDisplayInfoListModal;

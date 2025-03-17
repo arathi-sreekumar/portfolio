@@ -9,7 +9,7 @@ export type PageType = 'Home' | 'Project' | 'Experience';
 export type PageDisplayInfoListModal = {
     [key in PageType]: PageDisplayInfoModal;
 };
-export type JobType = 'HelpScout' | 'Tray' | 'Futrli' | 'Brandwatch' | 'CanadaLife' | 'Semantico';
+export type JobType = 'HelpScout' | 'Tray' | 'Futrli' | 'Brandwatch' | 'CanadaLife' | 'Semantico' | 'Amadeus' | 'Ness';
 export type ExperienceDisplayInfoModal = {
     id: JobType;
     title: string;
