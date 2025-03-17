@@ -4,5 +4,5 @@ type OwnProps = {
     pageType: PageType;
 };
 type Props = React.HTMLAttributes<HTMLDivElement> & OwnProps & TwoColumnProps;
-export declare const Layout: ({ header, pageType, children, ...rest }: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const Layout: ({ header, sidebar, pageType, children, ...rest }: Props) => import("react/jsx-runtime").JSX.Element;
 export {};

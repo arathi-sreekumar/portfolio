@@ -1,1 +1,1 @@
-export type ButtonStyles = 'primary' | 'outlined' | 'cancel';
+export type ButtonStyles = 'primary' | 'outlined' | 'cancel' | 'link';

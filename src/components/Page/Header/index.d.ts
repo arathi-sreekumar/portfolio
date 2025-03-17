@@ -1,9 +1,10 @@
-import { JSX } from "react";
+import { ReactNode } from "react";
 type Level = 1 | 2 | 3 | 4 | 5 | 6;
-type Props = {
-    children: JSX.Element | string;
+type HeaderProps = {
+    children: ReactNode;
     id?: string;
     level?: Level;
 };
-export declare const Header: ({ children, id, level, }: Props) => import("react/jsx-runtime").JSX.Element;
+type Props = React.HTMLAttributes<HTMLHeadingElement> & HeaderProps;
+export declare const Header: ({ children, id, level, ...rest }: Props) => import("react/jsx-runtime").JSX.Element;
 export {};

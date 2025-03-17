@@ -5,8 +5,17 @@ export type PageDisplayInfoModal = {
     imageUrl?: string;
     imageDescription?: string;
 };
+export type PageType = 'Home' | 'Project' | 'Experience';
 export type PageDisplayInfoListModal = {
-    Home: PageDisplayInfoModal;
-    Project: PageDisplayInfoModal;
+    [key in PageType]: PageDisplayInfoModal;
 };
-export type PageType = keyof PageDisplayInfoListModal;
+export type JobType = 'HelpScout' | 'Tray' | 'Futrli' | 'Brandwatch' | 'CanadaLife' | 'Semantico';
+export type ExperienceDisplayInfoModal = {
+    id: JobType;
+    title: string;
+    duration: string;
+    description: string;
+};
+export type ExperienceDisplayInfoListModal = {
+    [key in JobType]: ExperienceDisplayInfoModal;
+};
