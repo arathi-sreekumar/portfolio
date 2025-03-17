@@ -5,7 +5,7 @@ export const HelpScout = () => {
         At Help Scout, I contributed to several key projects that improved customer support tools for businesses worldwide.
       </p>
 
-      <h3>Docs Team – Document Editor Implementation</h3>
+      <h2>Docs Team – Document Editor Implementation</h2>
 
       <p>
         I worked in developing the new document editor for Help Scout Docs, a platform that enables businesses to create and manage public or private documentation sites.
@@ -22,7 +22,7 @@ export const HelpScout = () => {
         </ul>
       </p>
 
-      <h3>AI Workstream – Enhancing AI in Customer Support</h3>
+      <h2>AI Workstream – Enhancing AI in Customer Support</h2>
 
       <p>
         I was part of the AI Workstream team, focused on integrating artificial intelligence into Help Scout’s chat and email solutions.
@@ -38,7 +38,7 @@ export const HelpScout = () => {
         </ul>
       </p>
 
-      <h3>Frontend Modernization – Backbone to React Migration</h3>
+      <h2>Frontend Modernization – Backbone to React Migration</h2>
 
       <p>
         Led the migration of legacy Backbone/Marionette code to React, enhancing the UX while maintaining feature parity.
@@ -53,7 +53,7 @@ export const HelpScout = () => {
         </ul>
       </p>
 
-      <h3>Apps Platform – Legacy Migration & Documentation</h3>
+      <h2>Apps Platform – Legacy Migration & Documentation</h2>
 
       <p>
         Worked on Help Scout’s Apps platform, supporting third-party app integrations.
@@ -69,7 +69,7 @@ export const HelpScout = () => {
         </ul>
       </p>
 
-      <h3>Cross-Team Collaboration & Tech Stack</h3>
+      <h2>Cross-Team Collaboration & Tech Stack</h2>
 
       <p>
         Worked closely with backend engineers, designers, clients, product managers, and testing teams to deliver high-quality features.
