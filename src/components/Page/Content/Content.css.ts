@@ -32,6 +32,7 @@ export const ContentUI = styled('section')`
 export const ColumnUI = styled('div')`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 
   &.home {
