@@ -115,9 +115,9 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   padding: 4px 12px;
   color: var(--grey-400);
   text-decoration: none;
-  fort-weight: bold;
+  font-weight: bold;
 
-  &:hover, &:active {
+  &:hover, &:active, &.active {
     color: var(--grey-600);
     text-decoration: underline;
     font-weight: bold;
