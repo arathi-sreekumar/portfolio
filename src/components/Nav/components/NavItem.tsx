@@ -17,7 +17,11 @@ export const NavItem = ({
   ...props
 }: LinkButtonProps) => {
   return (
-    <NavItemUI className={styleType} to={to} {...props}>
+    <NavItemUI
+      className={styleType}
+      to={to}
+      {...props}
+    >
       {children}
     </NavItemUI>
   )

@@ -5,9 +5,9 @@ export const NavItemUI = styled(NavLink)`
   padding: 4px 12px;
   color: var(--grey-400);
   text-decoration: none;
-  fort-weight: bold;
+  font-weight: bold;
 
-  &:hover, &:active {
+  &:hover, &:active, &.active {
     color: var(--grey-600);
     text-decoration: underline;
     font-weight: bold;
