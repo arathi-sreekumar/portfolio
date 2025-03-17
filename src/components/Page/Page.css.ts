@@ -8,4 +8,18 @@ export const PageUI = styled('div')`
   background: var(--white-800);
   margin: 0 auto;
   padding: 40px;
+  overflow-x: hidden;
+  position: relative;
+  transition: margin 700ms;
+
+  .has-sidebar {
+    padding-left: 40px;
+    margin-left: 0;
+    transition: margin 700ms;
+  }
+
+  .open ~ .has-sidebar {
+    margin-left: var(--sidebar-width);
+    transition: margin 700ms;
+  }
 `

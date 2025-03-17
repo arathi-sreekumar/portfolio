@@ -8,6 +8,7 @@ export const NavUI = styled('nav')`
   height: 80px;
   display: flex;
   background: var(--yellow-600);
+  z-index: 999;
 `
 
 export const NavWrapper = styled('div')`

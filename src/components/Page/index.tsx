@@ -1,15 +1,18 @@
 import { Content } from "./Content"
 import { Header } from "./Header"
+import { SideBar } from "./Layout/Sidebar"
 import { PageUI } from "./Page.css"
 
 
-interface PageProps {
-  children: React.ReactElement<typeof Header | typeof Content>[] | React.ReactElement<typeof Header | typeof Content>
+type PageProps = {
+  children: React.ReactElement<typeof Header | typeof Content | typeof SideBar>[] | React.ReactElement<typeof Header | typeof Content>
 }
 
-export const Page = ({ children }: PageProps) => {
+type Props = React.HTMLAttributes<HTMLDivElement> & PageProps
+
+export const Page = ({ children, ...rest }: Props) => {
   return (
-    <PageUI>
+    <PageUI {...rest}>
       {children}
     </PageUI>
   )

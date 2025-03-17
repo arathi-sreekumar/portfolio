@@ -1,1 +1,1 @@
-export type ButtonStyles = 'primary' | 'outlined' | 'cancel' //add clear, danger?
+export type ButtonStyles = 'primary' | 'outlined' | 'cancel' | 'link' //add clear, danger?

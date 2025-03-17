@@ -8,7 +8,7 @@ import { PageDisplayInfo } from "../../../common/constants"
 
 export type HomePageProps = {
   header?: string | JSX.Element
-  children: string | JSX.Element | JSX.Element[]
+  children: React.ReactNode
   pageType: PageType
 }
 

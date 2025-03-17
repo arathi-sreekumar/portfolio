@@ -38,6 +38,9 @@ export const ThemeStyles = createGlobalStyle`
     --button-cancel-background: ${palette.grey[500]};
     --button-cancel-active: ${palette.grey[600]};
 
+    --button-link-color: ${palette.green[600]};
+    --button-link-active: ${palette.grey[600]};
+
     --button-option-text: ${palette.grey[600]};
     --button-option-background: ${palette.grey[200]};
     --button-option-active: ${palette.grey[300]};
@@ -48,6 +51,10 @@ export const ThemeStyles = createGlobalStyle`
     --chat-button-bg: ${palette.green[600]};
     --chat-button-color: ${palette.white[800]};
 
-    --app-background: ${palette.white[600]}
+    --app-background: ${palette.white[600]};
+
+    --sidebar-width: 15rem;
+    --sidebar-width-and-padding: calc(-40px - var(--sidebar-width));
+    --sidebar-color: var(--yellow-600);
   }
 `

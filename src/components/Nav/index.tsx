@@ -11,6 +11,7 @@ export const Nav = () => {
         <NavItemWrapper>
           <NavItem to="/home">Home</NavItem>
           <NavItem to="/projects">Projects</NavItem>
+          <NavItem to="/experience">Experience</NavItem>
         </NavItemWrapper>
       </NavWrapper>
     </NavUI>

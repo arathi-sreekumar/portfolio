@@ -1,4 +1,4 @@
-import { JSX } from "react"
+import { JSX, ReactNode } from "react"
 import {
   Header1UI,
   Header2UI,
@@ -10,11 +10,13 @@ import {
 
 type Level = 1 | 2 | 3 | 4 | 5 | 6
 
-type Props = {
-  children: JSX.Element | string
+type HeaderProps = {
+  children: ReactNode
   id?: string
   level?: Level
 }
+
+type Props = React.HTMLAttributes<HTMLHeadingElement> & HeaderProps
 
 const getHeaderComponent = (level: Level) => {
   switch (level) {
@@ -31,11 +33,12 @@ export const Header = ({
   children,
   id,
   level = 1,
+  ...rest
 }: Props) => {
   const HeaderUI = getHeaderComponent(level)
 
   return (
-    <HeaderUI id={id}>
+    <HeaderUI id={id} {...rest}>
       {children}
     </HeaderUI>
   )

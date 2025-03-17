@@ -24,6 +24,7 @@ const getLayoutComponent = (layoutType: LayoutType) => {
 
 export const Layout = ({
   header,
+  sidebar,
   pageType = 'Home',
   children,
   ...rest
@@ -40,6 +41,7 @@ export const Layout = ({
       <LayoutComponent
         header={header}
         pageType={pageType}
+        sidebar={sidebar}
       >
         {children}
       </LayoutComponent>

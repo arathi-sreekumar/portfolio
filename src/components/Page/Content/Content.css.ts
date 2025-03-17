@@ -7,12 +7,12 @@ export const ContentUI = styled('section')`
 
   &.two-column {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: auto auto;
     gap: 50px;
   }
 
-  &.home {
-    
+  &.home h1 {
+    font-family: Montserrat;
   }
 
   li {
