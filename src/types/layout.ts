@@ -4,6 +4,7 @@ export type PageDisplayInfoModal = {
   layoutType: LayoutType;
   header: string;
   imageUrl?: string;
+  mobileImageUrl?: string;
   imageDescription?: string;
 }
 

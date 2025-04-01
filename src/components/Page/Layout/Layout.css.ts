@@ -14,6 +14,7 @@ export const SideBarUI = styled('div')`
   border-right: 3px solid var(--sidebar-color);
   transition: .7s;
   position: absolute;
+  background-color: var(--white-800);
   
   &.closed {
     transform: translateX(var(--sidebar-width-and-padding));
