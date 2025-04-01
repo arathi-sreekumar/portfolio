@@ -18,8 +18,10 @@ export const PageUI = styled('div')`
     transition: margin 700ms;
   }
 
-  .open ~ .has-sidebar {
-    margin-left: var(--sidebar-width);
-    transition: margin 700ms;
+  @media (min-width: 800px) {
+    .open ~ .has-sidebar {
+      margin-left: var(--sidebar-width);
+      transition: margin 700ms;
+    }
   }
 `

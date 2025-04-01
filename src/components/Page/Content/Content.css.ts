@@ -9,6 +9,34 @@ export const ContentUI = styled('section')`
     display: grid;
     grid-template-columns: auto auto;
     gap: 50px;
+
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+
+  &.home {
+    @media (max-width: 900px) {
+      display: block;
+
+      img {
+        float: right;
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 200px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+      } 
+    }
+
+    @media (max-width: 480px) {
+      img {
+        float: none;
+        margin: 0 auto 20px;
+      }
+    }
   }
 
   &.home h1 {
@@ -36,9 +64,20 @@ export const ColumnUI = styled('div')`
   gap: 20px;
 
   &.home {
-    justify-content: center;
-    gap: 50px;
     padding: 50px;
     line-height: 1.8em;
+
+    @media (max-width: 900px) {
+      padding: 20px;
+      display: block;
+    }
+
+    @media (max-width: 640px) {
+      padding: 0;
+    }
+
+    h1 {
+      margin-bottom: 50px;
+    }
   }
 `

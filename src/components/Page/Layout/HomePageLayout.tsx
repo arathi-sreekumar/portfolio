@@ -21,6 +21,7 @@ export const HomePageLayout = ({
   const {
     header: headerInfo,
     imageUrl,
+    mobileImageUrl,
     imageDescription
   } = PageDisplayInfo[pageType]
 
@@ -32,14 +33,22 @@ export const HomePageLayout = ({
       <Page.Content className="two-column home">
         <ColumnUI className="home">
           <Page.Header id="main-header">{header}</Page.Header>
+          {window.innerWidth <= 900 && (mobileImageUrl || imageUrl) && (
+            <ImageUI
+              src={mobileImageUrl || imageUrl}
+              alt={imageDescription}
+            />
+          )}
           {children}
         </ColumnUI>
-        <ColumnUI role={role}>
-          <ImageUI
-            src={imageUrl}
-            alt={imageDescription}
-          />
-        </ColumnUI>
+        {window.innerWidth > 900 && imageUrl && (
+          <ColumnUI role={role}>
+            <ImageUI
+              src={imageUrl}
+              alt={imageDescription}
+            />
+          </ColumnUI>
+        )}
       </Page.Content>
     </Page>
   )

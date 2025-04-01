@@ -3,6 +3,7 @@ export type PageDisplayInfoModal = {
     layoutType: LayoutType;
     header: string;
     imageUrl?: string;
+    mobileImageUrl?: string;
     imageDescription?: string;
 };
 export type PageType = 'Home' | 'Project' | 'Experience';
