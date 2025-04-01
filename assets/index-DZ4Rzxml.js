@@ -422,7 +422,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
     --button-cancel-background: ${ye.grey[500]};
     --button-cancel-active: ${ye.grey[600]};
 
-    --button-link-color: ${ye.green[600]};
+    --button-link-color: ${ye.green[800]};
     --button-link-active: ${ye.grey[600]};
 
     --button-option-text: ${ye.grey[600]};
