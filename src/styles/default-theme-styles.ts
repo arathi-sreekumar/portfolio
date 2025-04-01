@@ -38,7 +38,7 @@ export const ThemeStyles = createGlobalStyle`
     --button-cancel-background: ${palette.grey[500]};
     --button-cancel-active: ${palette.grey[600]};
 
-    --button-link-color: ${palette.green[600]};
+    --button-link-color: ${palette.green[800]};
     --button-link-active: ${palette.grey[600]};
 
     --button-option-text: ${palette.grey[600]};
